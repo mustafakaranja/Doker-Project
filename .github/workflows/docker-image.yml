@@ -10,10 +10,10 @@ jobs:
 
         #publish ot git hub
       - name: publish git hub to docker hub
-        uses: docker/build-push-action@v1
+        uses: docker/build-push-action@v2
         with:
           username: ${{ github.actor }}
           password: ${{secrets.GITHUB_TOKEN}}
-          registory: docker.pkg.github.com
+          registry: docker.pkg.github.com
           repository: ${{ github.repository}}/mknewproject
           tags: latest
