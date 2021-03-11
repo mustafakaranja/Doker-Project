@@ -1,0 +1,29 @@
+
+name: Docker image workflow
+
+# Controls when the action will run. 
+on:
+  # Triggers the workflow on push or pull request events but only for the master branch
+  push:
+    branches: [ master ]
+
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+jobs:
+  build-container:
+    name: build docker container
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check Out Repo
+        uses: actions/checkout@v2
+
+        #publish ot git hub
+      - name: publish git hub to docker hub
+        uses: docker/build-push-action@v1
+        with:
+          username: ${{ github.actor }}
+          password: ${{secrets.GITHUB_TOKEN}}
+          registory: docker.pkg.github.com
+          repository: ${{ github.repository}}/mknewproject
+          tags: latest, ${{github:run_number}}
