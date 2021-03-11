@@ -16,4 +16,4 @@ jobs:
           password: ${{secrets.GITHUB_TOKEN}}
           registory: docker.pkg.github.com
           repository: ${{ github.repository}}/mknewproject
-          tags: latest, ${{github:run_number}}
+          tags: latest
