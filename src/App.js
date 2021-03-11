@@ -7,9 +7,6 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <h1> Hey! this is a project, to deploy using the docker image.</h1>
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
         <a href="https://photogtech.in" target="_blank">
           Photo-G Technologies
         </a>
