@@ -17,3 +17,10 @@ jobs:
           registry: docker.pkg.github.com
           repository: ${{ github.repository}}/mknewproject
           tags: latest
+      - name: publish image to docker hub
+        uses: docker/build-push-action@v2
+        with:
+            username: ${{ secrets.DOCKER_USERNAME }}
+            password: ${{ secrets.DOCKER_PASSWORD }}
+            repository: mustafakaranja/mknewproject
+            tags: latest
