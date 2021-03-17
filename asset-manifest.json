@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/Doker-Project/static/css/main.9d5b29c0.chunk.css",
+    "main.js": "/Doker-Project/static/js/main.0cfa2a82.chunk.js",
+    "main.js.map": "/Doker-Project/static/js/main.0cfa2a82.chunk.js.map",
+    "runtime-main.js": "/Doker-Project/static/js/runtime-main.20150cd0.js",
+    "runtime-main.js.map": "/Doker-Project/static/js/runtime-main.20150cd0.js.map",
+    "static/js/2.664201ac.chunk.js": "/Doker-Project/static/js/2.664201ac.chunk.js",
+    "static/js/2.664201ac.chunk.js.map": "/Doker-Project/static/js/2.664201ac.chunk.js.map",
+    "static/js/3.28a6d03f.chunk.js": "/Doker-Project/static/js/3.28a6d03f.chunk.js",
+    "static/js/3.28a6d03f.chunk.js.map": "/Doker-Project/static/js/3.28a6d03f.chunk.js.map",
+    "index.html": "/Doker-Project/index.html",
+    "static/css/main.9d5b29c0.chunk.css.map": "/Doker-Project/static/css/main.9d5b29c0.chunk.css.map",
+    "static/js/2.664201ac.chunk.js.LICENSE.txt": "/Doker-Project/static/js/2.664201ac.chunk.js.LICENSE.txt",
+    "static/media/PhotoGlogo.c2312a1e.png": "/Doker-Project/static/media/PhotoGlogo.c2312a1e.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.20150cd0.js",
+    "static/js/2.664201ac.chunk.js",
+    "static/css/main.9d5b29c0.chunk.css",
+    "static/js/main.0cfa2a82.chunk.js"
+  ]
+}
